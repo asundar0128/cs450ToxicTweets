@@ -88,4 +88,4 @@ def showRespectiveTweets(chosenDataPoint):
 
 
 if __name__ == '__main__':
-    dashAppValue.run_server(debug=True)
+    dashAppValue.run_server(host='0.0.0.0', debug=False)
